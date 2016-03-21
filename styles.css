@@ -1,0 +1,409 @@
+
+html, body
+{
+	height: 100%;
+	width: 100%
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: #1B9772;
+	font-family: sans-serif;
+	font-size: 11pt;
+	font-weight: 300;
+	color: #6c6c6c
+}
+
+h1
+{
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	color: #454445;
+}
+
+p, ul
+{
+	margin-top: 0;
+}
+
+ ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+p
+{
+	line-height: 180%;
+}
+
+
+a
+{
+	color: #2C383B;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.container
+{
+	margin: 0px auto;
+	width: 1200px;
+}
+
+
+.site-map{
+	    position: relative;
+    /* background: black; */
+    border: 1px solid yellow;
+    width: 61%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 404px;
+    background-image: url("images/site-map.png");
+}
+
+
+
+	
+
+	.button
+{
+	display: inline-block;
+	padding: 1.3em 3em;
+	background: #65A73E;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-o-transition: opacity 0.25s ease-in-out;
+	-ms-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.button:hover
+{
+	background: #95C778;
+}
+
+
+
+	.title
+{
+	margin-bottom: 3em;
+}
+
+	
+#header-wrapper
+{
+	background: #ECECEC;
+}
+
+#header
+{
+	position: relative;
+	height: 100px;
+}
+
+
+#logo
+{
+	position: absolute;
+	top: 2em;
+	left: 0;
+	width: 100%;
+}
+
+#logo h1
+{
+	display: inline-block;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #2C383B;
+	padding-right: 0.50em;
+	
+}
+
+#logo span
+{
+	position: absolute;
+	top: 1.4em;
+	display: inline-block;
+	padding-left: 1.50em;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-size: 0.90em;
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: #2C383B;
+}
+
+#menu
+{
+	position: absolute;
+    right: 16%;
+    top: 2.7em;
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+}
+
+#menu li a, #menu li span
+{
+	display: inline-block;
+	border-radius:25px;
+	
+	padding: 0em 1.5em;
+	letter-spacing: 0.10em;
+	text-decoration: none;
+	font-size: 1em;
+	text-transform: uppercase;
+	outline: 0;
+	color: #212121;
+	background: #ECECEC;
+}
+
+
+
+#menu .current_page_item a
+{
+	background: #2A7BE2;
+	color: #FFF;
+}
+
+	
+	#banner-wrapper
+{
+	overflow: hidden;
+	padding: 3em 0em;
+	background: #2A7BE2;
+}
+
+#banner
+{
+	overflow: hidden;
+	width: 1000px;
+	padding: 0px 100px;
+	text-align: center;
+	color: rgba(255,255,255,.7);
+}
+
+#wrapper
+{
+	background: #ECECEC;
+}
+
+#content
+{
+	padding: 0em 7em;
+}
+
+/*********************************************************************************/
+/* Sidebar                                                                       */
+/*********************************************************************************/
+
+	#sidebar
+{
+	float: right;
+	width: 450px;
+}
+
+#stwo-col
+{
+	margin-top: 2em;
+}
+
+#stwo-col h2
+{
+	display: block;
+	padding-bottom: 1.5em;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #454445;
+}
+
+#stwo-col .sbox1
+{
+	float: left;
+	width: 210px;
+}
+
+#stwo-col .sbox2
+{
+	float: right;
+	width: 210px;
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+#copyright
+{
+	overflow: hidden;
+	padding: 5em 0em;
+	border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+#copyright p
+{
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: rgba(255,255,255,0.3);
+}
+
+#copyright a
+{
+	text-decoration: none;
+	color: rgba(255,255,255,0.6);
+}
+
+/*********************************************************************************/
+/* Featured                                                                      */
+/*********************************************************************************/
+
+#featured-wrapper
+{
+	overflow: hidden;
+	padding: 6em 0em;
+	background: #383838;
+	text-align: center;
+}
+
+#featured
+{
+	overflow: hidden;
+}
+
+#featured .major
+{
+	overflow: hidden;
+	margin-bottom: 3em;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+#featured .major h2
+{
+	font-size: 3em;
+}
+
+#featured .major .byline
+{
+	font-size: 1.3em;
+}
+
+#featured .title
+{
+	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
+	border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+#featured .title h2
+{
+	font-size: 1.2em;
+}
+
+#featured h2
+{
+	text-align: center;
+	color: #FFF;
+}
+
+#featured .icon
+{
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background: #2A7BE2;
+	margin: 0px auto 20px auto;
+	line-height:  100px;
+	font-size: 3em;
+	text-align: center;
+	color: #FFF;
+	border-radius:50%;
+}
+
+.column1,  .column2,  .column3,  .column4
+{
+	width: 282px;
+}
+
+.column1,  .column2
+{
+	float: left;
+	margin-right: 24px;
+}
+
+.column3
+{
+	float: left;
+}
+
+.column4
+{
+	float: right;
+}
+
+
+#extra
+{
+	overflow: hidden;
+	margin: 0em auto 0em auto;
+	padding: 5em 0em 5em 0em;
+	text-align: center;
+}
+
+#extra h2
+{
+	margin: 0em;
+	padding: 0em;
+	font-weight: 400;
+	font-size: 2.4em;
+	color: #555555;
+}
+
+#extra span
+{
+	display: block;
+	padding-top: 0.20em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	color: #A2A2A2;
+}
+
+
+#extra .button
+{
+	margin-top: 2em;
+}
