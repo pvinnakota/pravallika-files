@@ -1,0 +1,20 @@
+.banner-gs {
+
+    background-color: rgb(255, 190, 96) !important;
+
+	
+}
+
+.button-gs{
+	background-color: rgba(255, 150, 0, 0.94)  !important;
+    border-color: rgba(164, 46, 46, 0.14)  !important;
+}
+
+.head-gs :hover {
+	background-color: #FFA64F  !important;
+	color: white;
+}
+
+.head-gs , .bottom-gs {
+	    color: #E08F12  !important;
+}
